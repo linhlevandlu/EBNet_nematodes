@@ -15,6 +15,7 @@ which have been obtained with beetle's images.
 
 # Files and their functions:
 The function of files in this repository are described in following:
+
 	- readCSV.py: load and normalize data. Normally, the data (link to the images and coordinates of landmarks) is stored in csv files.
 	- utils.py: implements the util functions such as drawing the losses, writing the file, or drawing the results, etc.
 	- model.py: defines the structure of the network and a method to train the network.
@@ -33,6 +34,7 @@ The function of files in this repository are described in following:
 # To fine-tune the model
 Beside training from scratch, we provide also the simple program in able to fine-tune a trained model on nemtode images.
 All the program are in fineTune\*.py. In order to use this, we need to:
+
 	1. Change the path the trained model file (checkpoint)
 	2. Change the path to training data
 	3. Change the path to ouput folder (where we would like to store the outputs)
